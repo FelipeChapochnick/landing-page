@@ -33,16 +33,21 @@ p {
     padding: 7% 15%;
   }
   
+/*sections*/
 
+.colored-section{
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section{
+    background-color: #fff;
+}
 /*title section*/
 
-#title {
-  background-color: #ff4c68;
-  color: white;
-  text-align: left;
-}
 #title .container-fluid{
     padding: 3% 15% 7%;
+    text-align: left;
 }
 
 /*navigation bar*/
@@ -85,7 +90,6 @@ p {
 /*features section*/
 
 #features {
-  background-color: #fff;
   /*position of img on top*/
   position: relative;
 }
@@ -147,13 +151,6 @@ p {
 .price-text {
   font-size: 3rem;
   line-height: 1.5;
-}
-
-/*cta section*/
-
-#cta {
-  background-color: #ff4c68;
-  color: #fff;
 }
 
 /*Fotter Section*/
